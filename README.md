@@ -17,12 +17,6 @@ conda activate Wirebond
 ### Step 2: Run Wirebond Detection
 Execute the wirebond detection script to process the data.
 
-
-<div align="center">
-<pre><code>base_dir = os.path.join('/home/hgc-qc-web/Wirebond/', 'Modules')
-</code></pre>
-</div>
-
 <div align="center">
   <pre><code>python3 wirebonddetect.py
 </code></pre>
@@ -30,6 +24,13 @@ Execute the wirebond detection script to process the data.
 
 ### Step 3: Analyze the Results
 After running the detection script, analyze the results using the analysis script.
+before you change the path to the Modules
+
+<div align="center">
+ <pre><code>nano  analyze_results.py
+<pre><code>base_dir = os.path.join('/home/hgc-qc-web/Wirebond/', 'Modules')
+</code></pre>
+</div>
 
 <div align="center">
   <pre><code>python3 analyze_results.py
