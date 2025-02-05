@@ -19,7 +19,7 @@ Execute the wirebond detection script to process the data.
 
 
 <div align="center">
-  base_dir = os.path.join('/home/hgc-qc-web/Wirebond/', 'Modules')
+<pre><code>base_dir = os.path.join('/home/hgc-qc-web/Wirebond/', 'Modules')
 </code></pre>
 </div>
 
